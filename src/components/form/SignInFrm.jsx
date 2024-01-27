@@ -1,35 +1,35 @@
 import React from 'react';
 import './signInFrm.css'
+import { FaUser , FaLock} from "react-icons/fa";
 
-function signInFrm() {
+export const LogingForm = () => {
   return (
-    <div align="center">
-      <div align="center" class="d1">
-        <h1 >Sign In</h1>
+    <div className='wrapper'>
+        <form action=''>
+            <h1>Sign In</h1>
+            <div className='input-box'>
+                <input type='text' placeholder='Username' required />
+                <FaUser className='icon' />
+            </div>
+            <div className='input-box'>
+                <input type='text' placeholder='Password' required />
+                <FaLock className='icon' />
+            </div>
 
-            <form action="#">
-            <table>
-                <tr>
-                    <td> Username:</td>
-                    <td><input class="texta" type="text" name="user" /></td>
-                </tr>
-                <tr>
-                    <td> Password:</td>
-                    <td><input class="texta" type="password" name="password" /></td>
-                </tr>
-            </table>
-            <br />
-            <input class="button" type="submit" value="Sign In"/>
-            <p>Don't have an account? Register here.</p>
-            <p>Forgot Password?</p>
-            <p>Retrieve Account.</p>
-            </form>
+            <div className='remember-forgot'>
+                <label><input type='checkbox' />Remember me</label>
+                <a href='#'>Forgot Password?</a>
+            </div>
 
+            <button type='submit'>Login</button>
 
-      </div>
+            <div className='register-link'>
+                <p>Don't have an account?<a href='#'>Register</a></p>
+            </div>
+        </form>
     </div>
   );
 }
 
-export default signInFrm;
+
 
