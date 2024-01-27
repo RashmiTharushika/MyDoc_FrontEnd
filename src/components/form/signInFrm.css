@@ -1,0 +1,44 @@
+body
+{
+	background-color:rgb(255, 255, 255);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%
+	/* background-image:url('doctor2.png'); */
+
+	
+}
+
+h1{
+	color:white;
+	/*background-color:rgb(247, 189, 218);
+	line-height:180%*/
+
+}
+
+.d1{
+background-attachment:fixed;
+background-color: #52d9f1;
+margin:120px;
+border-radius: 15px;
+border-color: rgb(0, 89, 253);
+width: 350px;
+height: 300px;
+}
+
+.button{
+	color: #08869c;
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	background-color: rgb(255, 255, 255);
+}
+
+.texta{
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	height: 20px;
+	width: 150px;
+	size: 10px;
+}
+
