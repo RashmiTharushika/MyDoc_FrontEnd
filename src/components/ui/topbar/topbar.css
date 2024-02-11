@@ -1,0 +1,73 @@
+@import url('../../../assest/data/colors.css');
+
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: var(--topbar-color);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.topbarLeft {
+  flex: 3;
+  margin-left: 5px;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+  align-items: center;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topbarMiddle {
+  display: flex;
+  align-items: center;
+}
+
+.menuIcons {
+  display: flex;
+  align-items: center;
+}
+
+.topbarListItem {
+  margin-right: 30px;
+}
+
+.sidebarListItemText a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,6 @@
+.regContent {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust the space between cards as needed */
+  margin-top: 130px;
+}
