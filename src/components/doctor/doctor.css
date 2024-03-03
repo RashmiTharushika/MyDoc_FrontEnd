@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;600;700&display=swap');
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  
+  }
+
+.heading{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+#card-main{
+    width: 270px;
+    height: 280px;
+
+
+}
+
+.card-main-1{
+     padding: 3rem;
+     margin-left: 6rem;
+
+}
+
+#cardimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 120px;
+    margin: 2rem 0 0 4rem;
+}
+
+#maintitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+.abc{
+    background:linear-gradient(#50C4ED,#8AFFFF,white);
+    border-color: white;
+    border: 20px solid;
+    border-radius: 10rem;
+    /* border-width: 2rem; */
+}
+
+
+#border{
+    border: 3px solid white;
+    border-radius: 3rem;
+}
+
+.card-1{
+    background:linear-gradient(#50C4ED,#d3fff4);
+    border-color: white;
+    border: 20px solid;
+    border-radius: 10rem;
+}
+.card-2{
+    background:linear-gradient(#FF7ED4,#d3fff4);
+    border-color: white;
+    border: 20px solid;
+    border-radius: 10rem;
+}
+.card-3{
+    background:linear-gradient(yellow,#d3fff4);
+    border-color: white;
+    border: 20px solid;
+    border-radius: 10rem;
+}
